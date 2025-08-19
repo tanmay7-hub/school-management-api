@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const pool = require("./config/db");
-const schoolRoutes = require("./routes/schoolRoute");
+const schoolRoutes = require("./routes/SchoolRoute");
 
 dotenv.config();
 const app = express();
