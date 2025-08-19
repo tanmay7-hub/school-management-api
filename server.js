@@ -5,6 +5,8 @@ const schoolRoutes = require("./routes/schoolRoute");
 dotenv.config();
 const app = express();
 
+
+
 app.use(express.json());
 
 // Test DB connection
