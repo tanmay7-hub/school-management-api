@@ -15,7 +15,7 @@ pool.query("SELECT 1")
   .catch((err) => console.error("❌ Database connection failed:", err));
 
 // Routes
-app.use("/", schoolRoutes);
+app.use("/", SchoolRoutes);
 
 app.get("/", (req, res) => {
   res.send("School Management API is running...");
